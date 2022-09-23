@@ -1,0 +1,16 @@
+input{
+    border-radius: 3px;
+}
+.contenedor{
+    padding-top: 40px;
+    padding-bottom: 90px;
+    /* background-color: rgba(105, 2, 47, 0.880);  */
+}
+
+#cont{
+    width: 360px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color:whitesmoke;
+}

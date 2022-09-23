@@ -1,0 +1,16 @@
+a{
+    color: white;
+}
+li{
+    padding-bottom: 40px;
+}
+#side {
+    width: 220px;
+    position: fixed;
+    right: 0;
+    height: 800px;
+    background: #7386D5;
+    color: #fff;
+    text-align: center;
+}
+

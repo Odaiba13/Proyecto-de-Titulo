@@ -1,0 +1,45 @@
+
+<div class="container row">
+        <div class="container-fluid" id="cont">
+            <form>
+                <h2 class="py-3">LOG IN</h2>
+                <div class="form-group px-4 py-2">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                </div>
+                <br>
+                <div class="form-group px-4 pb-2">
+                    <input type="password" class="form-control"  name="password" id="password" placeholder="Password">
+                </div>
+                <br>
+                <div class="form-group px-4">
+                    <button class="btn btn-primary form-control " type="submit" routerLink="/mycases">Log In</button>
+                </div>
+                <div>
+                    <p class="pt-4">Forgot Password?, Clic <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Here</button></p>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Recover Your Account</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ">
+                              <label for="emailrecovery" >Enter your email for recover your password</label>
+                              <input type="email" class="form-control" name="emailrecovery" id="emailrecovery">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="submit" class="btn btn-primary">Send</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div>
+                    <a routerLink="/signin">Create new Account</a>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    
